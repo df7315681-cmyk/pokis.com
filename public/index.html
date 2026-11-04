@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecretVisit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SecretVisit</div>
+        <div class="subtitle">Navega con privacidad.</div>
+    </header>
+
+    <main>
+        <h1>¿Qué quieres visitar?</h1>
+
+        <form id="visitForm">
+            <input
+                type="text"
+                id="urlInput"
+                placeholder="Escribe una dirección web..."
+                autocomplete="off"
+                value="https://pokebonk.com"
+                required
+            >
+            <button type="submit">Visitar</button>
+        </form>
+
+        <p>Visita páginas sin utilizar IFRAME.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
